@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 700px;
+    margin: 0 100px  ;
+        overflow: hidden;
+ 
+}
+
+
+
+/*start of navebar*/
+
+.navebar{
+    width: 160px;
+    height: 100vh;
+    margin-left: 0;
+    background-color: black;
+    overflow: hidden;
+}
+.navebar ul{
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    text-align: left;
+    
+}
+.navebar ul li{
+    margin: 30px 0 ;
+    list-style: none;
+    
+}
+.navebar ul a{
+    color: gray;
+    text-decoration: none;
+    font-family: 15px;
+    transition: .2s ease-in-out;
+   
+}
+.navebar ul a:hover{
+    color: white;
+    border-bottom: 2px solid white;
+   padding-bottom: 5px;
+}
+
+/*end of navebar*/
+
+  /*start of body2*/
+   .body2{position: absolute;
+   overflow: hidden;
+       top:0;
+       left: 160px;
+       height: 100vh;
+       
+       width: calc(100% - 160px);
+       
+}
+     /*start of first*/
+.first {margin-top: 0;
+    background-color: white;
+    
+}
+.first .row1{
+    overflow: hidden;
+    position: absolute;
+    
+    width:1070px;
+    height: 800px;
+    
+    
+}
+.first .row1 >div{
+    float: left;
+    width: 535px;
+    height:700px;
+    
+    
+}
+.first .row1 .defi{
+    text-align: left;
+   
+   
+    transform: translateY(100px);
+    
+}
+.first .row1 .defi h1{
+    color:black;
+     line-height: 60px;
+    font-weight: 800;
+    font-size: 49px;
+     padding-left: 20px;
+    padding-bottom: 50px;
+    word-spacing: 10px;
+}
+.first .row1 .defi p{
+    color: gray;
+    line-height: 25px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    padding: 0 30px;
+}
+.first .row1 .defi button{
+    position: relative;
+    top: 60px;
+    left: 30px;
+    color: dimgray;
+    border: .5px solid gray;
+    padding-left: 10px;
+    background-color: white;
+    box-shadow: 1px 0px 2px gray;
+    border-top: none;
+    height: 30px;
+    width: 160px;
+    transition: .3s ease-in-out;
+    border-right: none;
+
+}
+.first .row1 .defi button:hover{
+    color: white;
+    background-color: dimgray;
+    
+}
+.first .row1 .pic{
+    transform: translateY(-10px);
+}
+.first .row1 .pic img{
+width: 100%;
+    height: 700px;
+}
+.first .row1 .pic div:first-child{
+    background-color: black;
+    position: relative;
+    top: 90px;
+    right: 0;
+    height: 60px;
+    text-align: left;
+    width: 300px;
+}
+.first .row1 .pic h3{
+    color:white;
+  padding: 18px 10px;
+    font-family: sans-serif;
+    font-size: 17px;
+    
+}
+
+     /*end of first*/
+/*start of second*/
+
+
+/*end of body 2*/
